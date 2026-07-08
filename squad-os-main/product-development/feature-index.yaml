@@ -1,0 +1,30 @@
+# Marketplace Experience — Feature Index
+# Master lookup: every feature mapped to all its related artifacts in one place.
+# Organized by product area → feature → artifacts.
+#
+# Product-area buckets are finalized in Phase 3 (candidates: sourcing, discovery,
+# connections). Populate this as we add PRDs, RFCs, plans, metrics, and Jira keys.
+#
+# Template for each feature entry:
+#
+#   <product-area>:
+#     <feature-name>:
+#       prd:            product/PRDs/<area>/<feature>-prd.md
+#       eng-rfc:        engineering/rfcs/<area>/<feature>-rfc.md
+#       eng-plan:       engineering/plans/<area>/<feature>.md
+#       data-eng-rfc:   data-engineering/rfcs/<area>/<feature>-rfc.md
+#       data-eng-plan:  data-engineering/plans/<area>/<feature>.md
+#       figma:          <figma link>
+#       jira:                       # Jira issue keys
+#         - PROJ-0000
+#       table-schemas:
+#         - analytics/schemas/<area>/<table>.md
+#       queries:
+#         - analytics/queries/<area>/<query>.sql
+#       dashboards:     analytics/dashboards/<area>/<feature>-dashboards.md
+#       experiments:
+#         - analytics/experiments/<area>/<experiment>.md
+#       investigations:
+#         - analytics/investigations/<area>/<investigation>.md
+#
+# --- Features (to be populated) ---
